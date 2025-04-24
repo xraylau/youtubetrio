@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <link rel="stylesheet" href="css/estilosvideo.css">
+    <!-- Ícono de FontAwesome para el botón -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <!-- Menú Hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-youtube text-danger "></i>
+                <span class="fw-bold ms-1">YouTube</span>
+            </a>
+            
+            <!-- Buscador -->
+            <form class="d-flex search-box mx-auto">
+                <input class="form-control d-none d-md-flex mx-auto" type="search" placeholder="Buscar">
+                <button class="btn btn-outline-secondary" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            
+            <!-- Botones -->
+            <div class="d-flex align-items-center ms-auto">
+                <button class="btn btn-outline-secondary mx-2">
+                    <i class="bi bi-mic-fill"></i>
+                </button>
+                <button class="btn btn-outline-secondary mx-2">
+                    <i class="bi bi-plus-square"></i>
+                </button>
+                <button class="btn btn-outline-secondary mx-2">
+                    <i class="bi bi-bell"></i>
+                </button>
+                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Usuario" class="rounded-circle ms-2" width="32" height="32">
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Video Player Section -->
+        <div class="video-player-container">
+            <!-- Video Player -->
+            <div class="video-player">
+                <!-- Aquí iría el reproductor de video real -->
+                <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video en reproducción" style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            
+            <!-- Video Title -->
+            <h1 class="video-title">Cómo aprender programación en 30 días - Guía completa para principiantes</h1>
+            
+            <!-- Video Actions -->
+            <div class="video-actions">
+                <div class="video-stats">
+                    <span>1,240,345 vistas • 15 feb 2023</span>
+                </div>
+                <div class="action-buttons">
+                    <button class="action-button">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                        <span>125K</span>
+                    </button>
+                    <button class="action-button">
+                        <i class="bi bi-hand-thumbs-down"></i>
+                        <span>No me gusta</span>
+                    </button>
+                    <button class="action-button">
+                        <i class="bi bi-share"></i>
+                        <span>Compartir</span>
+                    </button>
+                    <button class="action-button">
+                        <i class="bi bi-collection"></i>
+                        <span>Guardar</span>
+                    </button>
+                    <button class="action-button">
+                        <i class="bi bi-three-dots"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Channel Info -->
+            <div class="channel-info">
+                <div class="channel-details">
+                    <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Canal" class="channel-avatar">
+                    <div>
+                        <div class="channel-name">TechChannel</div>
+                        <div class="channel-subs">1.2M suscriptores</div>
+                    </div>
+                </div>
+                <button class="subscribe-btn">SUSCRIBIRSE</button>
+            </div>
+            
+            <!-- Video Description -->
+            <div class="video-description">
+                ¡Bienvenidos a TechChannel! En este video aprenderás los fundamentos de la programación en solo 30 días. Perfecto para principiantes absolutos.
+
+                📌 Contenido del video:
+                00:00 - Introducción
+                02:15 - Qué es programación
+                05:30 - Eligiendo tu primer lenguaje
+                10:45 - Primeros pasos con Python
+                18:20 - Fundamentos de programación
+                25:40 - Proyecto práctico
+                35:15 - Consejos para seguir aprendiendo
+
+                🔗 Recursos mencionados:
+                - Editor de código: https://code.visualstudio.com/
+                - Python: https://www.python.org/
+                - Documentación oficial: https://docs.python.org/3/
+
+                No olvides suscribirte y activar la campanita para no perderte nuestros próximos videos. ¡Déjanos tus preguntas en los comentarios!
+            </div>
+        </div>
+        
+        <!-- Suggested Videos Section -->
+        <div class="suggested-videos">
+            <!-- Suggested Video 1 -->
+            <div class="suggested-video">
+                <div class="suggested-thumbnail">
+                    <img src="https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Miniatura">
+                    <span class="video-duration">3:45</span>
+                </div>
+                <div class="suggested-info">
+                    <div class="suggested-title">Receta fácil de pasta carbonara - Cocina como un chef italiano</div>
+                    <div class="suggested-channel">CookingTime</div>
+                    <div class="suggested-stats">450K vistas • hace 1 mes</div>
+                </div>
+            </div>
+            
+            <!-- Suggested Video 2 -->
+            <div class="suggested-video">
+                <div class="suggested-thumbnail">
+                    <img src="https://i.ytimg.com/vi/6Dh-RL__uN4/hqdefault.jpg" alt="Miniatura">
+                    <span class="video-duration">15:22</span>
+                </div>
+                <div class="suggested-info">
+                    <div class="suggested-title">Review del nuevo juego de acción - ¿Vale la pena comprarlo?</div>
+                    <div class="suggested-channel">GamingPro</div>
+                    <div class="suggested-stats">1.2M vistas • hace 3 días</div>
+                </div>
+            </div>
+            
+            <!-- Suggested Video 3 -->
+            <div class="suggested-video">
+                <div class="suggested-thumbnail">
+                    <img src="https://i.ytimg.com/vi/J---aiyznGQ/hqdefault.jpg" alt="Miniatura">
+                    <span class="video-duration">8:15</span>
+                </div>
+                <div class="suggested-info">
+                    <div class="suggested-title">Tutorial de Bootstrap 5 - Crea sitios web responsive fácilmente</div>
+                    <div class="suggested-channel">WebDev</div>
+                    <div class="suggested-stats">85K vistas • hace 2 semanas</div>
+                </div>
+            </div>
+            
+            <!-- Suggested Video 4 -->
+            <div class="suggested-video">
+                <div class="suggested-thumbnail">
+                    <img src="https://i.ytimg.com/vi/LDU_Txk06tM/hqdefault.jpg" alt="Miniatura">
+                    <span class="video-duration">22:40</span>
+                </div>
+                <div class="suggested-info">
+                    <div class="suggested-title">Rutina de ejercicios en casa - 30 minutos para mantenerse en forma</div>
+                    <div class="suggested-channel">FitLife</div>
+                    <div class="suggested-stats">320K vistas • hace 1 semana</div>
+                </div>
+            </div>
+            
+            <!-- Suggested Video 5 -->
+            <div class="suggested-video">
+                <div class="suggested-thumbnail">
+                    <img src="https://i.ytimg.com/vi/RgKAFK5djSk/hqdefault.jpg" alt="Miniatura">
+                    <span class="video-duration">5:10</span>
+                </div>
+                <div class="suggested-info">
+                    <div class="suggested-title">Cómo tomar fotos profesionales con tu smartphone - Tips esenciales</div>
+                    <div class="suggested-channel">PhotoMaster</div>
+                    <div class="suggested-stats">150K vistas • hace 5 días</div>
+                </div>
+            </div>
+            
+            <!-- Suggested Video 6 -->
+            <div class="suggested-video">
+                <div class="suggested-thumbnail">
+                    <img src="https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg" alt="Miniatura">
+                    <span class="video-duration">4:33</span>
+                </div>
+                <div class="suggested-info">
+                    <div class="suggested-title">Los mejores lugares para viajar en 2023 - Guía de destinos</div>
+                    <div class="suggested-channel">TravelWorld</div>
+                    <div class="suggested-stats">210K vistas • hace 3 semanas</div>
+                </div>
+            </div>
+            
+            <!-- Suggested Video 7 -->
+            <div class="suggested-video">
+                <div class="suggested-thumbnail">
+                    <img src="https://i.ytimg.com/vi/kJQP7kiw5Fk/hqdefault.jpg" alt="Miniatura">
+                    <span class="video-duration">11:25</span>
+                </div>
+                <div class="suggested-info">
+                    <div class="suggested-title">Aprende JavaScript en 10 minutos - Conceptos básicos</div>
+                    <div class="suggested-channel">CodeFast</div>
+                    <div class="suggested-stats">95K vistas • hace 4 días</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
